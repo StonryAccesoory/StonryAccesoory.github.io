@@ -1,2 +1,2 @@
-# StonryAccesoory.github.io
+# StonryAccesory.github.io
 Official links page for Stonry
