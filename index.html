@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>STONRY | فروشگاه‌های ما</title>
+
+    <meta name="description"
+          content="دسترسی سریع به فروشگاه‌ها و شبکه‌های اجتماعی STONRY">
+
+    <meta name="theme-color" content="#526F71">
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Tahoma, Arial, sans-serif;
+            background: #f5f7f7;
+            color: #263536;
+            min-height: 100vh;
+            padding: 25px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 520px;
+            margin: auto;
+            padding: 20px 20px 30px;
+        }
+
+        /* HEADER */
+
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .logo {
+            width: 250px;
+            max-width: 85%;
+            height: auto;
+            display: block;
+            margin: 0 auto 22px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #687879;
+            line-height: 2;
+            margin-top: 5px;
+        }
+
+        /* LINKS */
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        /* BUTTON */
+
+        .link-button {
+            width: 100%;
+            min-height: 64px;
+
+            display: flex;
+            align-items: center;
+
+            background: #ffffff;
+
+            border: 1px solid rgba(82,111,113,0.15);
+
+            border-radius: 18px;
+
+            padding: 10px 16px;
+
+            box-shadow:
+                0 5px 20px rgba(82,111,113,0.08);
+
+            transition:
+                all 0.2s ease;
+        }
+
+        .link-button:hover {
+            transform: translateY(-3px);
+            background: #526F71;
+            color: #ffffff;
+
+            box-shadow:
+                0 10px 25px rgba(82,111,113,0.22);
+        }
+
+        .link-button:active {
+            transform: scale(0.98);
+        }
+
+        /* ICON */
+
+        .icon {
+            width: 43px;
+            height: 43px;
+            min-width: 43px;
+
+            border-radius: 13px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background: #526F71;
+            color: white;
+
+            font-size: 20px;
+
+            overflow: hidden;
+
+            transition: all 0.2s ease;
+        }
+
+        .icon img {
+            width: 27px;
+            height: 27px;
+            object-fit: contain;
+        }
+
+        .link-button:hover .icon {
+            background: white;
+        }
+
+        /* TEXT */
+
+        .link-text {
+            flex: 1;
+
+            text-align: center;
+
+            font-size: 15px;
+            font-weight: 700;
+
+            padding: 0 12px;
+        }
+
+        /* ARROW */
+
+        .arrow {
+            font-size: 18px;
+            color: #9aa6a7;
+
+            transition: all 0.2s ease;
+        }
+
+        .link-button:hover .arrow {
+            color: white;
+            transform: translateX(-3px);
+        }
+
+        /* FOOTER */
+
+        .footer {
+            text-align: center;
+
+            margin-top: 35px;
+
+            color: #899596;
+
+            font-size: 11px;
+
+            line-height: 2;
+        }
+
+        .footer-brand {
+            color: #526F71;
+
+            font-weight: bold;
+
+            font-size: 13px;
+
+            letter-spacing: 2px;
+
+            margin-bottom: 3px;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 400px) {
+
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            .logo {
+                width: 220px;
+            }
+
+            .link-button {
+                min-height: 60px;
+            }.link-text {
+                font-size: 14px;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER -->
+
+    <header class="header">
+
+        <img
+            src="IMG_20260626_011703_222.png"
+            alt="STONRY"
+            class="logo"
+        >
+
+        <div class="subtitle">
+            برای ثبت سفارش و مشاهده شبکه‌های اجتماعی STONRY،
+            یکی از گزینه‌های زیر را انتخاب کنید.
+        </div>
+
+    </header>
+
+
+    <!-- LINKS -->
+
+    <main class="links">
+
+
+        <!-- INSTAGRAM -->
+
+        <a
+            href="https://www.instagram.com/stonry_accessory/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link-button"
+        >
+
+            <div class="icon">
+                <img src="instagram.png" alt="Instagram">
+            </div>
+
+            <div class="link-text">
+                اینستاگرام
+            </div>
+
+            <div class="arrow">
+                ←
+            </div>
+
+        </a>
+
+
+        <!-- TELEGRAM -->
+
+        <a
+            href="https://t.me/stonry_Accessory"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link-button"
+        >
+
+            <div class="icon">
+                <img src="telegram.png" alt="Telegram">
+            </div>
+
+            <div class="link-text">
+                تلگرام
+            </div>
+
+            <div class="arrow">
+                ←
+            </div>
+
+        </a>
+
+
+        <!-- BALE -->
+
+        <a
+            href="https://ble.ir/stonry_accessory"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link-button"
+        >
+
+            <div class="icon">
+                <img src="bale.png" alt="Bale">
+            </div>
+
+            <div class="link-text">
+                بله
+            </div>
+
+            <div class="arrow">
+                ←
+            </div>
+
+        </a>
+
+
+        <!-- RUBIKA -->
+
+        <a
+            href="https://rubika.ir/stonry_Accessory"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link-button"
+        >
+
+            <div class="icon">
+                <img src="rubika.png" alt="Rubika">
+            </div>
+
+            <div class="link-text">
+                روبیکا
+            </div>
+
+            <div class="arrow">
+                ←
+            </div>
+
+        </a>
+
+
+        <!-- RUBINO -->
+
+        <a
+            href="https://rubika.ir/page/stonry_accessory"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link-button"
+        >
+
+            <div class="icon">
+                <img src="rubino.png" alt="Rubino">
+            </div>
+
+            <div class="link-text">
+                روبینو
+            </div>
+
+            <div class="arrow">
+                ←
+            </div>
+
+        </a>
+
+
+        <!-- EITAA -->
+
+        <a
+            href="https://eitaa.com/stonry_accessory"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link-button"
+        >
+
+            <div class="icon">
+                <img src="eitaa.png" alt="Eitaa">
+            </div>
+
+            <div class="link-text">
+                ایتا
+            </div>
+
+            <div class="arrow">
+                ←
+            </div>
+
+        </a>
+
+
+        <!-- SPLUS -->
+
+        <a
+            href="https://splus.ir/stonry_accessory"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link-button"
+        >
+
+            <div class="icon">
+                <img src="splus.png" alt="Splus">
+            </div>
+
+            <div class="link-text">
+                سروش
+            </div>
+
+            <div class="arrow">
+                ←
+            </div>
+
+        </a>
+
+
+        <!-- PHONE -->
+
+        <a
+            href="tel:09152268379"
+            class="link-button"
+        >
+
+            <div class="icon">
+                ☎
+            </div>
+<div class="link-text">
+                تماس با ما
+            </div>
+
+            <div class="arrow">
+                ←
+            </div>
+
+        </a>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <div class="footer-brand">
+            STONRY
+        </div>
+
+        <div>
+            © 2026 تمامی حقوق محفوظ است
+        </div>
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>
